@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    tools:context=".TambahActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Kampus"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/et_namakampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Kampus"
+        />
+
+    <EditText
+        android:id="@+id/et_kota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kota"
+        />
+
+    <EditText
+        android:id="@+id/et_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        />
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:layout_marginTop="32dp"/>
+
+
+</LinearLayout>
